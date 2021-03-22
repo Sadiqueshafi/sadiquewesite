@@ -75,6 +75,20 @@ res.sendFile(path.join(__dirname+'/dist/herohu/index.html'));
 
 if(process.env.NODE_ENV ==='production'){
   app.use(express.static('dist/herohu'));
+  app.use(express.static(__dirname + '/angularapp'));
 // app.use(express.static('./dist/herohu'))
 }
 // Start the app by listening on the default Heroku port
+
+
+
+
+
+//Install express server
+
+
+
+// Serve only the static files form the angularapp directory
+
+
+
