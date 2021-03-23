@@ -21,6 +21,8 @@
     "npm": "6.14.10"
   },
   "dependencies": {
+    "express":"*",
+    "body-parser":"*",
     "@angular/animations": "11.0.4",
     "@angular/common": "11.0.4",
     "@angular/compiler": "11.0.4",
